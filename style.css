@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 130px;
+    background-color: grey;
+    text-align: center;
+    border: solid rgb(70, 70, 70) 2px;
+    border-radius: 5px;
+}
+
+#text_input{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 40px;
+}
+input[type="button"], button{
+    font-size: 13px;
+}
+input[type="button"]:hover, button:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+input[type="text"]:hover {
+    background-color: rgb(155, 155, 155);
+}
